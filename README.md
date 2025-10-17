@@ -76,6 +76,7 @@ EduTrack_Lite_API/
 ├── services/
 │   ├── user_service.py
 │   ├── course_service.py
+│   ├── storage.py
 │   └── enrollment_service.py
 └── tests/
     └── test_api.py
@@ -154,7 +155,6 @@ tests/test_api.py::test_create_invalid_user_missing_fields PASSED               
 | `POST`   | `/users/{user_id}/deactivate` | Deactivate user               |
 | `PUT`    | `/users/{user_id}`            | Update user                   |
 | `DELETE` | `/users/{user_id}`            | Delete user                   |
-| `POST`   | `/users/{user_id}/deactivate` | Deactivate user               |
 
 ### 🗓️ **Course Endpoints**
 
